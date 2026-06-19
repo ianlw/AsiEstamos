@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.historial.HistorialViewModel

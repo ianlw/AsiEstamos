@@ -1,0 +1,8 @@
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.historial.HistorialViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.historial.HistorialViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.theme.ThemeViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.theme.ThemeViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.estadisticas.EstadisticasViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.estadisticas.EstadisticasViewModel

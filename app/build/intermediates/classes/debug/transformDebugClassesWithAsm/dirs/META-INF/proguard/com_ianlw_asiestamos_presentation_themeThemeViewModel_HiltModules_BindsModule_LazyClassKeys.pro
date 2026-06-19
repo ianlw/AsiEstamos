@@ -1,0 +1,3 @@
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.historial.HistorialViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.historial.HistorialViewModel
+-keep,allowobfuscation,allowshrinking class com.ianlw.asiestamos.presentation.theme.ThemeViewModel

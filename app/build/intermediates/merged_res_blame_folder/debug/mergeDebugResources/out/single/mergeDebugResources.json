@@ -1,6 +1,30 @@
 [
     {
-        "merged": "com.ianlw.asiestamos.app-debug-78:/xml_file_paths.xml.flat",
-        "source": "com.ianlw.asiestamos.app-main-80:/xml/file_paths.xml"
+        "merged": "com.ianlw.asiestamos.app-debug-78:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ianlw.asiestamos.app-main-80:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-debug-78:/xml_file_paths.xml.flat",
+        "source": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-main-80:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-debug-78:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-main-80:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ianlw.asiestamos.app-debug-78:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ianlw.asiestamos.app-main-80:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ianlw.asiestamos.app-debug-78:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ianlw.asiestamos.app-main-80:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-debug-78:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-main-80:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-debug-78:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/ian/.gradle/daemon/8.9/com.ianlw.asiestamos.app-main-80:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

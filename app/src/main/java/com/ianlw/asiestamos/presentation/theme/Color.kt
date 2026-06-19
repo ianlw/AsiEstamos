@@ -2,11 +2,27 @@ package com.ianlw.asiestamos.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
+/**
+ * Interface to provide category-specific colors across different themes.
+ */
+interface CategoryColors {
+    val Alimentacion: Color
+    val Transporte: Color
+    val Salud: Color
+    val Entretenimiento: Color
+    val Educacion: Color
+    val Hogar: Color
+    val Ropa: Color
+    val Tecnologia: Color
+    val Otros: Color
+}
+
+
 // =============================================
 // LIQUID GLASS THEME
 // Deep dark with blue/violet gradients, translucent surfaces
 // =============================================
-object LiquidGlassColors {
+object LiquidGlassColors : CategoryColors {
     val Background = Color(0xFF0A0A0F)
     val BackgroundGradientStart = Color(0xFF0D0D1A)
     val BackgroundGradientEnd = Color(0xFF0A0A0F)
@@ -38,22 +54,22 @@ object LiquidGlassColors {
     val Info = Color(0xFF38BDF8)
 
     // Category colors
-    val Alimentacion = Color(0xFFFF6B6B)
-    val Transporte = Color(0xFF4ECDC4)
-    val Salud = Color(0xFFFF85A2)
-    val Entretenimiento = Color(0xFFFFD93D)
-    val Educacion = Color(0xFF6BCB77)
-    val Hogar = Color(0xFF4D96FF)
-    val Ropa = Color(0xFFCC5DE8)
-    val Tecnologia = Color(0xFF38BDF8)
-    val Otros = Color(0xFF94A3B8)
+    override val Alimentacion = Color(0xFFFF6B6B)
+    override val Transporte = Color(0xFF4ECDC4)
+    override val Salud = Color(0xFFFF85A2)
+    override val Entretenimiento = Color(0xFFFFD93D)
+    override val Educacion = Color(0xFF6BCB77)
+    override val Hogar = Color(0xFF4D96FF)
+    override val Ropa = Color(0xFFCC5DE8)
+    override val Tecnologia = Color(0xFF38BDF8)
+    override val Otros = Color(0xFF94A3B8)
 }
 
 // =============================================
 // FINTECH DARK THEME
 // Pure black + neon green/cyan accents
 // =============================================
-object FintechDarkColors {
+object FintechDarkColors : CategoryColors {
     val Background = Color(0xFF000000)
     val BackgroundGradientStart = Color(0xFF000000)
     val BackgroundGradientEnd = Color(0xFF0A0A0A)
@@ -84,22 +100,22 @@ object FintechDarkColors {
     val Error = Color(0xFFFF4444)
     val Info = Color(0xFF00D4FF)
 
-    val Alimentacion = Color(0xFFFF6B6B)
-    val Transporte = Color(0xFF00D4FF)
-    val Salud = Color(0xFFFF69B4)
-    val Entretenimiento = Color(0xFFFFD600)
-    val Educacion = Color(0xFF00FF87)
-    val Hogar = Color(0xFF4D96FF)
-    val Ropa = Color(0xFFCC5DE8)
-    val Tecnologia = Color(0xFF00D4FF)
-    val Otros = Color(0xFF808080)
+    override val Alimentacion = Color(0xFFFF6B6B)
+    override val Transporte = Color(0xFF00D4FF)
+    override val Salud = Color(0xFFFF69B4)
+    override val Entretenimiento = Color(0xFFFFD600)
+    override val Educacion = Color(0xFF00FF87)
+    override val Hogar = Color(0xFF4D96FF)
+    override val Ropa = Color(0xFFCC5DE8)
+    override val Tecnologia = Color(0xFF00D4FF)
+    override val Otros = Color(0xFF808080)
 }
 
 // =============================================
 // MINIMAL PAPER THEME
 // Near-white, bold black typography, warm amber accent
 // =============================================
-object MinimalPaperColors {
+object MinimalPaperColors : CategoryColors {
     val Background = Color(0xFFFAF9F6)
     val BackgroundGradientStart = Color(0xFFFAF9F6)
     val BackgroundGradientEnd = Color(0xFFF5F3EF)
@@ -130,15 +146,15 @@ object MinimalPaperColors {
     val Error = Color(0xFFDC2626)
     val Info = Color(0xFF2563EB)
 
-    val Alimentacion = Color(0xFFDC2626)
-    val Transporte = Color(0xFF0891B2)
-    val Salud = Color(0xFFDB2777)
-    val Entretenimiento = Color(0xFFD97706)
-    val Educacion = Color(0xFF16A34A)
-    val Hogar = Color(0xFF2563EB)
-    val Ropa = Color(0xFF9333EA)
-    val Tecnologia = Color(0xFF0891B2)
-    val Otros = Color(0xFF737373)
+    override val Alimentacion = Color(0xFFDC2626)
+    override val Transporte = Color(0xFF0891B2)
+    override val Salud = Color(0xFFDB2777)
+    override val Entretenimiento = Color(0xFFD97706)
+    override val Educacion = Color(0xFF16A34A)
+    override val Hogar = Color(0xFF2563EB)
+    override val Ropa = Color(0xFF9333EA)
+    override val Tecnologia = Color(0xFF0891B2)
+    override val Otros = Color(0xFF737373)
 }
 
 /**
