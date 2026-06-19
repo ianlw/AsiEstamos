@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Así Estamos</string>
+
+    <!-- General -->
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="buscar">Buscar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="agregar">Agregar</string>
+    <string name="configuracion">Configuración</string>
+
+    <!-- Home Screen -->
+    <string name="balance_disponible">Balance disponible</string>
+    <string name="total_gastado">Total gastado</string>
+    <string name="dinero_inicial">Dinero inicial</string>
+    <string name="registrar_gasto">Registrar gasto</string>
+    <string name="teclado">Teclado</string>
+    <string name="microfono">Micrófono</string>
+    <string name="camara">Cámara</string>
+
+    <!-- Input -->
+    <string name="escribe_tu_gasto">Escribe lo que gastaste…</string>
+    <string name="grabando">Grabando…</string>
+    <string name="toca_para_grabar">Toca para grabar</string>
+    <string name="procesando">Procesando con IA…</string>
+    <string name="tomar_foto">Tomar foto</string>
+    <string name="seleccionar_galeria">Seleccionar de galería</string>
+
+    <!-- Confirmation Sheet -->
+    <string name="confirmar_gastos">Confirmar gastos</string>
+    <string name="varios_gastos">Varios gastos</string>
+    <string name="agregar_item">+ Agregar ítem</string>
+    <string name="guardar_todo">Guardar todo</string>
+    <string name="monto">Monto</string>
+    <string name="producto">Producto</string>
+    <string name="categoria">Categoría</string>
+    <string name="descripcion">Descripción</string>
+
+    <!-- Categories -->
+    <string name="cat_alimentacion">Alimentación</string>
+    <string name="cat_transporte">Transporte</string>
+    <string name="cat_salud">Salud</string>
+    <string name="cat_entretenimiento">Entretenimiento</string>
+    <string name="cat_educacion">Educación</string>
+    <string name="cat_hogar">Hogar</string>
+    <string name="cat_ropa">Ropa</string>
+    <string name="cat_tecnologia">Tecnología</string>
+    <string name="cat_otros">Otros</string>
+
+    <!-- History Screen -->
+    <string name="historial">Historial</string>
+    <string name="buscar_gastos">Buscar gastos…</string>
+    <string name="sin_registros">No hay registros aún</string>
+    <string name="empieza_registrando">Empieza registrando tu primer gasto</string>
+    <string name="entrada_texto">Texto</string>
+    <string name="entrada_voz">Voz</string>
+    <string name="entrada_foto">Foto</string>
+    <string name="input_original">Entrada original</string>
+    <string name="confirmar_eliminar_titulo">¿Eliminar registro?</string>
+    <string name="confirmar_eliminar_mensaje">Se eliminará este registro y todos sus gastos. Esta acción no se puede deshacer.</string>
+
+    <!-- Statistics Screen -->
+    <string name="estadisticas">Estadísticas</string>
+    <string name="hoy">Hoy</string>
+    <string name="esta_semana">Esta semana</string>
+    <string name="este_mes">Este mes</string>
+    <string name="este_anio">Este año</string>
+    <string name="rango_personalizado">Personalizado</string>
+    <string name="total_periodo">Total del período</string>
+    <string name="categoria_top">Categoría top</string>
+    <string name="promedio_diario">Promedio diario</string>
+    <string name="presupuesto_usado">Presupuesto usado</string>
+    <string name="gasto_por_categoria">Gasto por categoría</string>
+    <string name="gasto_en_el_tiempo">Gasto en el tiempo</string>
+    <string name="top_productos">Top 5 productos</string>
+    <string name="comparativo">Comparativo</string>
+    <string name="sin_datos">Sin datos para el período seleccionado</string>
+
+    <!-- Settings -->
+    <string name="ajustes">Ajustes</string>
+    <string name="dinero_inicial_label">Dinero inicial (presupuesto)</string>
+    <string name="api_key_gemini">API Key de Gemini</string>
+    <string name="api_key_hint">Ingresa tu API Key de Google AI Studio</string>
+    <string name="tema_visual">Tema visual</string>
+    <string name="moneda">Moneda</string>
+    <string name="exportar_datos">Exportar datos</string>
+    <string name="exportar_json">Exportar como JSON</string>
+    <string name="exportar_csv">Exportar como CSV</string>
+    <string name="tema_liquid_glass">Liquid Glass</string>
+    <string name="tema_fintech_dark">Fintech Dark</string>
+    <string name="tema_material_you">Material You</string>
+    <string name="tema_minimal_paper">Minimal Paper</string>
+
+    <!-- Permissions -->
+    <string name="permiso_camara_titulo">Permiso de cámara</string>
+    <string name="permiso_camara_mensaje">Necesitamos acceso a la cámara para tomar fotos de tus boletas y recibos.</string>
+    <string name="permiso_microfono_titulo">Permiso de micrófono</string>
+    <string name="permiso_microfono_mensaje">Necesitamos acceso al micrófono para registrar gastos por voz.</string>
+    <string name="permiso_ubicacion_titulo">Permiso de ubicación</string>
+    <string name="permiso_ubicacion_mensaje">Registraremos automáticamente dónde realizaste el gasto. Puedes deshabilitar esto en cualquier momento.</string>
+    <string name="permiso_galeria_titulo">Permiso de galería</string>
+    <string name="permiso_galeria_mensaje">Necesitamos acceso a tus fotos para poder seleccionar imágenes de boletas.</string>
+
+    <!-- Errors -->
+    <string name="error_gemini">Error al procesar con IA. Puedes llenar los datos manualmente.</string>
+    <string name="error_sin_api_key">Configura tu API Key de Gemini en Ajustes</string>
+    <string name="error_red">Sin conexión a internet. Registra el gasto manualmente.</string>
+    <string name="error_camara">No se pudo acceder a la cámara</string>
+    <string name="error_microfono">No se pudo acceder al micrófono</string>
+
+    <!-- Currency -->
+    <string name="moneda_pen">S/</string>
+    <string name="moneda_usd">$</string>
+
+    <!-- Formats -->
+    <string name="formato_monto">S/ %s</string>
+</resources>

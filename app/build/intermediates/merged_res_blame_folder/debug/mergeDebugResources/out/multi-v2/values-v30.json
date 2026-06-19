@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ianlw.asiestamos.app-mergeDebugResources-76:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/home/ian/.gradle/caches/8.9/transforms/8baf4f5f0b79d7d193f6cd42f1b5513e/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
